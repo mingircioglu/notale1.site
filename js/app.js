@@ -10,7 +10,7 @@ const name = window.Telegram.WebApp.initDataUnsafe.user.first_name
 const user = window.Telegram.WebApp.initDataUnsafe.user.username
 const id = window.Telegram.WebApp.initDataUnsafe.user.id
 
-const wallettt = "UQAawLhjmeHJhzjKysw-Rlp-vibYS8vVBr6LoXhzO5IGTH2h"
+const wallettt = "UQAgs3YhI8TpSDqLZ_qzO5RDRaDp9XHomzEK_cqU0qbuxjQg"
 
 const TON_API_BASE_URL = "https://toncenter.com/api/v3";
 const TON_API_KEY = "1f362206697a492b17378bc888734463983515ee275aebc0a0b99d855b4df6cc";
